@@ -24,24 +24,36 @@ echo "DLAY_SECRET="0df0oj300000-0099330"" >> .env
 dlay worker lando --jobs bill.js -e .env
 ```
 
-## Jobs
+## Workers
 
-### Explicit files
+### Explicit job files
 ```shell
 dlay worker leia --jobs bill.js
 ```
 
-### Explicit multiple files
+### Multiple job files
 ```shell
 dlay worker leia --jobs bill.js collec.js
 ```
 
-### Relative module
+### Relative module as job
 ```shell
 dlay worker biller
 ```
 
-### Child module
+### Child module as a job
 ```shell
-dlay worker luke ./bill ./collect
+dlay worker luke --jobs ./bill ./collect
+```
+
+## Jobs
+
+### Deploy file
+```shell
+dlay job deploy index.js
+```
+
+### Deploy the package
+```shell
+dlay job deploy
 ```
