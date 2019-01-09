@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/dlay-io/dlay-cli/issues"
   },
-  "homepage": "https://github.com/dlay-io/dlay-cli#readme"
+  "homepage": "https://github.com/dlay-io/dlay-cli#readme",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
 }
