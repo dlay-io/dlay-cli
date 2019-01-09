@@ -1,0 +1,27 @@
+{
+  "name": "dlay-cli",
+  "version": "0.0.1",
+  "description": "Dlay.io CLI for hybrid workers and job deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dlay-io/dlay-cli.git"
+  },
+  "keywords": [
+    "dlay",
+    "cli",
+    "workers",
+    "jobs",
+    "schedulement",
+    "api"
+  ],
+  "author": "dlay@dlay.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlay-io/dlay-cli/issues"
+  },
+  "homepage": "https://github.com/dlay-io/dlay-cli#readme"
+}
