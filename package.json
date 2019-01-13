@@ -1,8 +1,9 @@
 {
-  "name": "dlay-cli",
+  "name": "dlay",
   "version": "0.0.1",
+  "preferGlobal": true,
   "description": "Dlay.io CLI for hybrid workers and job deployment",
-  "main": "index.js",
+  "bin": "bin/dlay",
   "scripts": {
     "test": "mocha spec"
   },

@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 const program = require('commander');
-
+const pkg = require('../package.json');
 program
+    .version(pkg.version)
     .description('Dlay command line tool')
     .command('worker', 'spins a worker')
     .parse(process.argv);
