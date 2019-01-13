@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+const program = require('commander');
+
+program
+    .description('Dlay command line tool')
+    .command('worker', 'spins a worker')
+    .parse(process.argv);
+
+module.exports = program;

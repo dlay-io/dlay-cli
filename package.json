@@ -26,6 +26,7 @@
   "homepage": "https://github.com/dlay-io/dlay-cli#readme",
   "dependencies": {
     "commander": "^2.19.0",
+    "dlay-core": "^2.0.1",
     "mocha": "^5.2.0"
   }
 }
