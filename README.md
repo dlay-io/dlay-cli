@@ -1,5 +1,10 @@
 # dlay-cli
 
+## Install
+```shell
+npm install dlay -g
+```
+
 ## Credentials
 
 ### Exported env var
