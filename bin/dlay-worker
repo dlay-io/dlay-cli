@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const program = require('commander');
 const { worker } = require('dlay-core')();
+const path = require('path');
 
 program
   .option('-n, --name <n>', `Gives a name for the worker`)
@@ -13,7 +14,9 @@ let jobs = program.args || [];
 jobs.push(program.jobs);
 jobs.forEach((jobFile) => {
     const job = require(`${process.cwd()}/${jobFile}`);
-    myWorker.addJob('compress', job);
+    const name = path.basename(jobFile, '.js');
+    myWorker.addJob(name, job);
 });
+myWorker.start();
 
 module.exports = program;
