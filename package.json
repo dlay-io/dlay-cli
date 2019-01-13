@@ -1,6 +1,6 @@
 {
   "name": "dlay",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "preferGlobal": true,
   "description": "Dlay.io CLI for hybrid workers and job deployment",
   "bin": "bin/dlay",
